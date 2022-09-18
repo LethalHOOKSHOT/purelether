@@ -1,0 +1,1 @@
+typedef Health = int;

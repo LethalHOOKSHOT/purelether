@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "837011596382",
+    "project_id": "peaper-dd503",
+    "storage_bucket": "peaper-dd503.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837011596382:android:e4e9ce5d0e489cea6c40cf",
+        "android_client_info": {
+          "package_name": "com.example.untitled3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837011596382-r01k4bcajv370uqqhu80j6hsb4qovvsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHu3Xm5lizb3Nmi9r3KT_puOHetYBwu4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837011596382-r01k4bcajv370uqqhu80j6hsb4qovvsi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "837011596382-1843qsencjvlglqslkh9gdmjsltkus2t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.untitled3"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
