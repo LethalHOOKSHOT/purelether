@@ -9,9 +9,9 @@ class InputDecorationStyles {
           label,
           style: PressStart2PlayTextStyles.p2sFormStyle,
         ),
-        enabledBorder: OutlineBorderStyles.rectangleBlack,
-        focusedBorder: OutlineBorderStyles.rectangleBlack,
-        errorBorder: OutlineBorderStyles.rectangleRed,
-        focusedErrorBorder: OutlineBorderStyles.rectangleRed,
+        enabledBorder: BorderStyles.rectangleBlack,
+        focusedBorder: BorderStyles.rectangleBlack,
+        errorBorder: BorderStyles.rectangleRed,
+        focusedErrorBorder: BorderStyles.rectangleRed,
       );
 }

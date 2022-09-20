@@ -47,10 +47,7 @@ Middleware<GameState> _endOfAGame() {
         store.state.prevDispatcher(SetNewLastBattleAction(BattleStatus.draw));
         store.state.prevDispatcher(SaveStatisticsInFireStoreAction());
       } else {
-        store.dispatch(SetNewBattleMessageAction("und" +
-            store.state.healthBars[0].toString() +
-            " " +
-            store.state.healthBars[1].toString()));
+        store.dispatch(SetNewBattleMessageAction("undefined${store.state.healthBars[0]} ${store.state.healthBars[1]}"));
       }
       store.state.prevDispatcher(SaveStatisticsInFireStoreAction());
     }

@@ -23,7 +23,7 @@ class Painters {
 
   static const alertText = Colors.red;
   static const formText = Color(0x50000000);
-
+  static const alarmTextBackgroundColor = Color(0xFFe0e0e0);
   static const gradientColor1 = Color(0xFFFFFFFF);
   static const gradientColor2 = Color(0xC5D1EAFF);
   static const winIconColor = Colors.green;
@@ -58,7 +58,7 @@ class Painters {
   static const int _screenBackgroundPrimaryColor = 0xFFF5F5F5;
 
   static const boxColor =
-      ColorSwatch<int>(_boxPrimaryColor, <int, Color>{2: Color(0xFFC5D1EA)});
+      ColorSwatch<int>(_boxPrimaryColor, <int, Color>{2: Color(0xFFC5D1EA),3:Colors.red});
   static const int _boxPrimaryColor = 0xFF1C79CE;
 
   static const warningMessageColor = Color(0x779E9E9E);

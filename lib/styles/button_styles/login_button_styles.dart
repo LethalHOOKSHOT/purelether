@@ -3,14 +3,14 @@ import 'package:untitled3/painters/painters.dart';
 
 class SimpleButtonStyles {
   static final blueH50 = ButtonStyle(
-    overlayColor: MaterialStateProperty.all(Painters.nextButtonC["hover1"]),
+    overlayColor: MaterialStateProperty.all(Painters.nextButtonC["hover1"]!),
     minimumSize: MaterialStateProperty.all(const Size(double.infinity, 50)),
-    backgroundColor: MaterialStateProperty.all(Painters.nextButtonC["filled2"]),
+    backgroundColor: MaterialStateProperty.all(Painters.nextButtonC["filled2"]!),
   );
   static final blue = ButtonStyle(
-    overlayColor: MaterialStateProperty.all(Painters.nextButtonC["hover1"]),
+    overlayColor: MaterialStateProperty.all(Painters.nextButtonC["hover1"]!),
     minimumSize: MaterialStateProperty.all(const Size(double.infinity, double.infinity)),
-    backgroundColor: MaterialStateProperty.all(Painters.nextButtonC["filled2"]),
+    backgroundColor: MaterialStateProperty.all(Painters.nextButtonC["filled2"]!),
 
   );
 

@@ -27,8 +27,15 @@ class MainMenu extends StatelessWidget {
         builder: (context, vm) {
           return Stack(
             children: [
-              NoLoggedWidget(
-                  isDisabled: vm.state.userLoadState == LoadState.loaded),
+              Align(
+                alignment: Alignment.center,
+                child:  SizedBox(
+                  height: 70,
+                  width: 200,
+                  child: NoLoggedWidget(
+                      isDisabled: vm.state.userLoadState == LoadState.loaded),
+                ),
+              ),
               // отключено
               Column(
                 children: [
