@@ -9,13 +9,13 @@ class PressStart2PlayTextStyles {
           fontSize: 10,
           height: 2,
           decoration: TextDecoration.none,
-          color: Painters.nextTextColor)); //Color(0xFF161616)
+          color: Painters.nextTextColor));
 
   static final p2s20black = GoogleFonts.pressStart2p(
       textStyle: const TextStyle(
           fontSize: 20,
           decoration: TextDecoration.none,
-          color: Painters.nextTextColor)); //Colors.black54
+          color: Painters.nextTextColor));
 
   static final p2s14black = GoogleFonts.pressStart2p(
       textStyle: TextStyle(
@@ -42,12 +42,12 @@ class PressStart2PlayTextStyles {
   static final p2sBlack54 = GoogleFonts.pressStart2p(
       textStyle: const TextStyle(
           decoration: TextDecoration.none,
-          color: Painters.nextTextColor)); //Colors.black54
+          color: Painters.nextTextColor));
 
   static final p2sBlack = GoogleFonts.pressStart2p(
       textStyle: TextStyle(
           decoration: TextDecoration.none,
-          color: Painters.nextTextColor[2]!)); //Painters.nextTextColor
+          color: Painters.nextTextColor[2]!));
 
   static final p2sAlert = GoogleFonts.pressStart2p(
       textStyle: const TextStyle(
@@ -59,13 +59,13 @@ class PressStart2PlayTextStyles {
       textStyle: const TextStyle(
           fontSize: 24,
           decoration: TextDecoration.none,
-          color: Painters.nextTextColor)); //Colors.black54
+          color: Painters.nextTextColor));
 
   static final p2s13black54 = GoogleFonts.pressStart2p(
       textStyle: const TextStyle(
           fontSize: 13,
           decoration: TextDecoration.none,
-          color: Painters.nextTextColor)); //Colors.black54
+          color: Painters.nextTextColor));
 
   static final p2s13white = GoogleFonts.pressStart2p(
       textStyle: TextStyle(

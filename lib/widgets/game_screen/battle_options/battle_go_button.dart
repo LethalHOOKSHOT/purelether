@@ -25,14 +25,14 @@ Widget goButton(Text text, BodyPart protectedPart, BodyPart attackedPrt,
             color: ((protectedPart != BodyPart.none) &&
                     (attackedPrt != BodyPart.none))
                 ? Painters.nextButtonC["filled1"]!
-                : Painters.nextButtonC["disable1"]!/*const Color(0x5D000000)*/)),//TODO: поменять цвета
+                : Painters.nextButtonC["disable1"]!)),
         shape: MaterialStateProperty.all(
           const RoundedRectangleBorder(borderRadius: BorderRadius.zero),
         ),
         backgroundColor: MaterialStateProperty.all(
             ((protectedPart != BodyPart.none) && (attackedPrt != BodyPart.none))
                 ? Painters.nextBorderSideC["filled1"]!
-                : Painters.nextBorderSideC["disable1"]/*const Color(0x5D000000)*/),
+                : Painters.nextBorderSideC["disable1"]),
       ),
       child: text);
 }

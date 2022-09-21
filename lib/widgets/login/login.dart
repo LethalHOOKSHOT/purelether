@@ -71,6 +71,7 @@ class LoginScreenState extends State<LoginScreen> {
                     Padding(
                       padding: const EdgeInsets.all(8),
                       child: TextFormField(
+                        obscureText: true,
                         validator: widget.validator.passwordValidator,
                         initialValue: "",
                         onChanged: (value) {
