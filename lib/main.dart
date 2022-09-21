@@ -6,7 +6,7 @@ import 'package:untitled3/redux/actions.dart';
 import 'package:untitled3/redux/app_state.dart';
 import 'package:untitled3/redux/middlewares.dart';
 import 'package:untitled3/redux/reducers.dart';
-import 'package:untitled3/repository/LocalRepository.dart';
+import 'package:untitled3/repository/remote_repository.dart';
 import 'package:untitled3/validator/validator.dart';
 import 'package:untitled3/widgets/login/login.dart';
 import 'package:untitled3/widgets/main_menu/main_menu_view.dart';

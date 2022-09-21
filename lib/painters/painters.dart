@@ -36,7 +36,7 @@ class Painters {
   static const int _textPrimaryColor = 0xFF161616;
 
   static const int _buttonPrimaryColor = 0xFF1C79CE;
-  static final nextButtonC =
+  static final buttonColor =
   ColorSwatch<String>(_buttonPrimaryColor, <String, Color>{
     "empty": const Color(0xFFF5F5F5),
     "filled1": const Color(0xFF000000),
@@ -46,7 +46,7 @@ class Painters {
   });
 
   static const int _primaryBorderColor = 0xFF161616;
-  static const nextBorderSideC = ColorSwatch<String>(
+  static const borderSideColor = ColorSwatch<String>(
       _primaryBorderColor, <String, Color>{
     "filled2": Color(0xFF1C79CE),
     "filled1": Color(0xFF000000),

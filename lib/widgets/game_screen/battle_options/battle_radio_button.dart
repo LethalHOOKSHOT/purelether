@@ -27,8 +27,8 @@ Widget radioButton(
           ),
           side: MaterialStateProperty.all(BorderSide(
               color: (bodyPart != actualPart)
-                  ? Painters.nextBorderSideC!
-                  : Painters.nextBorderSideC["filled2"]!))),
+                  ? Painters.borderSideColor!
+                  : Painters.borderSideColor["filled2"]!))),
       child: text);
 }
 
