@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:untitled3/model/load_state.dart';
 import 'package:untitled3/model/statistics.dart';
-import '../model/user.dart';
+
 import '../model/authorization_status.dart';
+import '../model/user.dart';
 
 @immutable
 class AppState {

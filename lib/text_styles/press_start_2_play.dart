@@ -41,13 +41,11 @@ class PressStart2PlayTextStyles {
 
   static final p2sBlack54 = GoogleFonts.pressStart2p(
       textStyle: const TextStyle(
-          decoration: TextDecoration.none,
-          color: Painters.nextTextColor));
+          decoration: TextDecoration.none, color: Painters.nextTextColor));
 
   static final p2sBlack = GoogleFonts.pressStart2p(
       textStyle: TextStyle(
-          decoration: TextDecoration.none,
-          color: Painters.nextTextColor[2]!));
+          decoration: TextDecoration.none, color: Painters.nextTextColor[2]!));
 
   static final p2sAlert = GoogleFonts.pressStart2p(
       textStyle: const TextStyle(
@@ -94,5 +92,4 @@ class PressStart2PlayTextStyles {
   static final p2sGray = GoogleFonts.pressStart2p(
       textStyle: TextStyle(
           decoration: TextDecoration.none, color: Painters.nextTextColor[4]));
-
 }

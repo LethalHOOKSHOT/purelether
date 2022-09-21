@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:redux/redux.dart';
 import 'package:untitled3/text_styles/press_start_2_play.dart';
 import 'package:untitled3/widgets/game_screen/state.dart';
+
 import '../../../painters/painters.dart';
 import '../actions.dart';
 import '../battle_status.dart';

@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:redux/redux.dart';
 import 'package:untitled3/redux/actions.dart';
 import 'package:untitled3/redux/app_state.dart';

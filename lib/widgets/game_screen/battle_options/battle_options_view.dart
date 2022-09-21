@@ -33,8 +33,8 @@ class BattleOptionsStored extends StatelessWidget {
                             child: Text(
                               "ATTACK",
                               style: GoogleFonts.pressStart2p(
-                                textStyle:
-                                    PressStart2PlayTextStyles.p2s16blackFF161616,
+                                textStyle: PressStart2PlayTextStyles
+                                    .p2s16blackFF161616,
                               ),
                             ),
                           ),
@@ -87,8 +87,8 @@ class BattleOptionsStored extends StatelessWidget {
                             child: Text(
                               "DEFEND",
                               style: GoogleFonts.pressStart2p(
-                                textStyle:
-                                    PressStart2PlayTextStyles.p2s16blackFF161616,
+                                textStyle: PressStart2PlayTextStyles
+                                    .p2s16blackFF161616,
                               ),
                             ),
                           ),

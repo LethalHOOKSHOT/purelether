@@ -44,30 +44,30 @@ class StatisticsScreenState extends State<StatisticsScreen> {
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: (((store.state.statistics.wins == 0) &
-                                    (store.state.statistics.loses == 0) &
-                                    (store.state.statistics.draws == 0)))
+                                (store.state.statistics.loses == 0) &
+                                (store.state.statistics.draws == 0)))
                             ? []
                             : [
                                 Text(
                                   "Won: ${store.state.statistics.wins.toString()}",
-                                  style:
-                                      PressStart2PlayTextStyles.p2s16blackFF161616,
+                                  style: PressStart2PlayTextStyles
+                                      .p2s16blackFF161616,
                                 ),
                                 const SizedBox(
                                   height: 20,
                                 ),
                                 Text(
                                   "Draw: ${store.state.statistics.draws.toString()}",
-                                  style:
-                                      PressStart2PlayTextStyles.p2s16blackFF161616,
+                                  style: PressStart2PlayTextStyles
+                                      .p2s16blackFF161616,
                                 ),
                                 const SizedBox(
                                   height: 20,
                                 ),
                                 Text(
                                   "Lost: ${store.state.statistics.loses.toString()}",
-                                  style:
-                                      PressStart2PlayTextStyles.p2s16blackFF161616,
+                                  style: PressStart2PlayTextStyles
+                                      .p2s16blackFF161616,
                                 )
                               ],
                       ),
@@ -81,8 +81,8 @@ class StatisticsScreenState extends State<StatisticsScreen> {
                         Navigator.of(context).pop();
                       },
                       style: ButtonStyle(
-                          backgroundColor:
-                              MaterialStateProperty.all(const Color(0xFFF5F5F5)),
+                          backgroundColor: MaterialStateProperty.all(
+                              const Color(0xFFF5F5F5)),
                           minimumSize: MaterialStateProperty.all(
                               const Size(double.infinity, 40)),
                           overlayColor:

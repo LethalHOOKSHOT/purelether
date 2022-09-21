@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
+import 'package:redux/redux.dart';
 import 'package:untitled3/painters/painters.dart';
 import 'package:untitled3/redux/app_state.dart';
 import 'package:untitled3/widgets/game_screen/battle_options/battle_options.dart';
 import 'package:untitled3/widgets/game_screen/reducer.dart';
 import 'package:untitled3/widgets/game_screen/state.dart';
-import 'actions.dart';
-import 'battle_message/battle_messages.dart';
-import 'package:flutter_redux/flutter_redux.dart';
-import 'package:redux/redux.dart';
+
 import '../../painters/painters.dart';
 import '../../widgets/game_screen/battle_info_component/battle_info_component.dart';
+import 'actions.dart';
+import 'battle_message/battle_messages.dart';
 import 'battle_options/battle_options.dart';
 import 'middlewares.dart';
 
@@ -42,7 +43,7 @@ class MobileGameScreenWidgetState extends State<MobileGameScreenWidget> {
                 Flexible(
                     flex: 5,
                     child: Padding(
-                        padding: EdgeInsets.only(top: 20,bottom: 30),
+                        padding: EdgeInsets.only(top: 20, bottom: 30),
                         child: BattleMessageStored())),
                 Flexible(flex: 6, child: BattleOptionsStored())
               ],
@@ -53,4 +54,3 @@ class MobileGameScreenWidgetState extends State<MobileGameScreenWidget> {
     ));
   }
 }
-

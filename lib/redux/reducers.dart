@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:redux/redux.dart';
 import 'package:untitled3/model/authorization_status.dart';
 import 'package:untitled3/model/load_state.dart';

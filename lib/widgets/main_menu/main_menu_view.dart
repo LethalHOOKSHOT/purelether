@@ -29,7 +29,7 @@ class MainMenu extends StatelessWidget {
             children: [
               Align(
                 alignment: Alignment.center,
-                child:  SizedBox(
+                child: SizedBox(
                   height: 70,
                   width: 200,
                   child: NoLoggedWidget(

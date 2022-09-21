@@ -1,21 +1,11 @@
-import 'package:hive/hive.dart';
 import '../widgets/game_screen/battle_status.dart';
 
-part 'statistics.g.dart';
-
-@HiveType(typeId: 1)
-class Statistics extends HiveObject {
-  @HiveField(0)
+class Statistics {
   String id;
-  @HiveField(1)
   String userId;
-  @HiveField(2)
   int wins;
-  @HiveField(3)
   int draws;
-  @HiveField(4)
   int loses;
-  @HiveField(5)
   BattleStatus lastBattleStatus;
 
   Statistics(

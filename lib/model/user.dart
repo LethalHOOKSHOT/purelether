@@ -1,14 +1,6 @@
-import 'package:hive/hive.dart';
-
-part 'user.g.dart';
-
-@HiveType(typeId: 0)
-class User extends HiveObject {
-  @HiveField(0)
+class User {
   String id;
-  @HiveField(1)
   String nickname;
-  @HiveField(2)
   String password;
 
   User({required this.id, required this.nickname, required this.password});

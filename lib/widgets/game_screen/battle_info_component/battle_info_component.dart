@@ -37,8 +37,8 @@ class BattleInfoStored extends StatelessWidget {
                   Flexible(
                     flex: 1,
                     child: Container(
-                        decoration:
-                            const BoxDecoration(color: Painters.gradientColor2)),
+                        decoration: const BoxDecoration(
+                            color: Painters.gradientColor2)),
                   ),
                 ],
               ),
